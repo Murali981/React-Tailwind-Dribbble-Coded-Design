@@ -51,7 +51,7 @@ const Hero = () => {
                 {/* overflow-hidden means we cannot scroll through it */}
                 <img
                   src={robot}
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%] "
+                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={1440}
                   height={490}
                   alt="AI"
@@ -61,7 +61,7 @@ const Hero = () => {
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul
-                    className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10
+                    className="hidden absolute -left-[5.5rem]  bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10
                   rounded-2xl xl:flex "
                   >
                     {heroIcons.map((icon, index) => (
@@ -84,7 +84,7 @@ const Hero = () => {
 
             <Gradient />
           </div>
-          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          <div className="absolute  -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
               className="w-full"
